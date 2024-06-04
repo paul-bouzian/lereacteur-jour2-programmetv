@@ -1,0 +1,52 @@
+section {
+  border-bottom: solid 1px grey;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 1rem;
+  gap: 1.5rem;
+  width: 500px;
+  height: 100px;
+}
+
+section img {
+  border-radius: 0.2rem;
+  height: 100%;
+}
+
+section .div-img {
+  height: 100%;
+}
+
+section h3 {
+  font-weight: bold;
+}
+
+section h4 {
+  font-weight: bold;
+  margin-top: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+section p {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.durationDiv {
+  display: flex;
+  gap: 1rem;
+}
+
+section span {
+  color: red;
+  font-weight: 500;
+}
+
+.emissionInfos {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
